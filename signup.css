@@ -1,0 +1,90 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .container {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 100%;
+  }
+  
+  h2 {
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"],
+  input[type="tel"],
+  input[type="email"],
+  input[type="password"] {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 25px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    border-radius: 25px;
+    padding: 15px 30px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #45a049;
+  }
+  
+  .social-signup {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .social-signup span {
+    color: #666;
+    margin-right: 10px;
+  }
+  
+  .social-signup a {
+    margin-right: 10px;
+  }
+  
+  .social-signup img {
+    width: 50px; /* Adjust the size as needed */
+    height: auto;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+  }
+  
+  .social-signup img:hover {
+    transform: scale(1.1);
+  }
+  
+  .extra-space {
+    margin-top: 20px; /* Adjust the value as needed */
+  }
+  
+  .logo {
+    width: auto; /* Adjust the width as needed */
+    height: 100px;
+  }
